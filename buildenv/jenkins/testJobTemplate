@@ -100,7 +100,7 @@ if (binding.hasVariable('GROUPS')) {
 
 
 if (binding.hasVariable('ARCH_OS_LIST')) {
-	ARCH_OS_LIST = ARCH_OS_LIST.split(',')*.trim()
+	//ARCH_OS_LIST = ARCH_OS_LIST.split(',')*.trim()
 } else {
 	ARCH_OS_LIST = [
 		'arm_linux',
